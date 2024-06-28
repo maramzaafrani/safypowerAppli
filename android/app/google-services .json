@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "367485997252",
+    "project_id": "safypowerfinal",
+    "storage_bucket": "safypowerfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367485997252:android:142673bfcc0040f6d0b991",
+        "android_client_info": {
+          "package_name": "com.example.safypowerfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367485997252-tftofnnl6730hcd91ddm91lutkvmic07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safypowerfinal",
+            "certificate_hash": "57e7023dd3ad2c9cc7bf5360d6803b649362cc3d"
+          }
+        },
+        {
+          "client_id": "367485997252-t9p74sb2u0rcfs5iussc0lilkfn9cmfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfD64ruxPz5q7dm5tO9npGuAZFxVL3qH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367485997252-t9p74sb2u0rcfs5iussc0lilkfn9cmfc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "367485997252-cqndna10liumu1e8ubjima5micqh70av.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.safypowerfinal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
