@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:safypowerfinal/Views/profile_view.dart';
 
 class CustomProfileView extends StatelessWidget {
@@ -77,22 +75,25 @@ class CustomProfileView extends StatelessWidget {
             ListTile(
               title: Text('Foire aux questions'),
               onTap: () {
-
-                Get.defaultDialog(
-                  title: 'Foire aux questions',
-                  middleText: 'Posez vos questions ici.',
-                  textConfirm: 'Fermer',
-                  confirmTextColor: Colors.white,
-                  onConfirm: () {
-                    Get.back(); // Fermer le Dialog
-                  },
-                );
+                // Navigate to FAQ
+              },
+            ),
+            ListTile(
+              title: Text('Avez-vous un problème? Contactez-nous!'),
+              onTap: () {
+                // Navigate to contact
+              },
+            ),
+            ListTile(
+              title: Text('Dites-nous ce que vous pensez de notre appli'),
+              onTap: () {
+                // Navigate to feedback
               },
             ),
           ],
         ),
       ),
-      bottomNavigationBar: _buildBottomNavigationBar(2),
+      bottomNavigationBar: _buildBottomNavigationBar(2), // Adjust the index accordingly
     );
   }
 

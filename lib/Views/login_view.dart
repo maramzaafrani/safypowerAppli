@@ -80,7 +80,6 @@ class LoginView extends StatelessWidget {
                 IconButton(
                   icon: Image.asset('assets/apple_icon.png', height: 40), // Adjust size
                   onPressed: () {
-                    // Implement Apple Sign-In logic
                   },
                 ),
                 SizedBox(width: 16),

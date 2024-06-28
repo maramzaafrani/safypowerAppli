@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
-import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -126,16 +124,7 @@ class FlutterMapView extends StatelessWidget {
               children: [
                 ElevatedButton(
                   onPressed: () {
-
-                    Get.snackbar(
-                      'Action',
-                      'Vous avez appuyé sur "Voir la liste"',
-                      snackPosition: SnackPosition.BOTTOM,
-                      backgroundColor: Colors.blue,
-                      colorText: Colors.white,
-                    );
-
-
+                    // Implémenter la logique de vue liste
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.blue[300],
@@ -155,7 +144,6 @@ class FlutterMapView extends StatelessWidget {
                     ],
                   ),
                 ),
-
                 ElevatedButton(
                   onPressed: () {
                     // Implémenter la logique d'itinéraire
