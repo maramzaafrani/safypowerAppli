@@ -17,9 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ![contact](https://github.com/maramzaafrani/safypowerAppli/assets/114824153/45c328cd-0b64-445d-a0af-269eec8ee92b)
 ![creationCompte](https://github.com/maramzaafrani/safypowerAppli/assets/114824153/21f8027f-11cb-465b-af3b-ee6f8081f755)
-![Uploading historique.png…]()
+![historique](https://github.com/maramzaafrani/safypowerAppli/assets/114824153/20786daa-1ab9-43d4-9a15-138745fb9dd2)
 ![Uploading map.png…]()
-
-
-![Uploading verification.png…]()
 ![Uploading profil.png…]()
+![Uploading verification.png…]()
